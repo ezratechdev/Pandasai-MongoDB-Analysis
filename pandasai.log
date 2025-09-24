@@ -1,0 +1,4 @@
+2025-09-24 22:10:41 [INFO] Question: What is the avarage value of amount
+2025-09-24 22:10:41 [INFO] Running PandasAI with deepseek LLM...
+2025-09-24 22:10:41 [INFO] Prompt ID: ccd3223d-7539-4d50-8051-844a54706a6f
+2025-09-24 22:10:41 [INFO] Executing Pipeline: GenerateChatPipeline
