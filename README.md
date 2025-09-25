@@ -104,7 +104,7 @@ uv.lock
 
 ---
 
-## 🔮 Example Output
+## 🔮 Example Usage
 
 ```bash
 > uv run main.py
@@ -113,6 +113,25 @@ uv.lock
 
 Where `42.3` is the computed result from your MongoDB dataset.
 
+```bash
+> uv run pandas_functions.py
+The amount avarage is 1000
+The amount total is 10000
+The median amount is 100
+Customer with most purchases is Jane Doe
+Jane Doe made an average purchase of 100
+
+```
+This is to assume that you have the keys/columns below in your MongoDB database
+
+```bash
+amount(integer), name(string), isUsed(boolean), transaction_ref(string)
+```
+
+```bash
+> uv run pandas_ai.py
+```
+Provides analysis using your favourite LLM
 ---
 
 ### PS:
